@@ -1,0 +1,118 @@
+/* основний колір заголовків (окрім h1) - #212121 */
+/* колір тексту - #757575 */
+/* колір акценту - #2196F3 */
+/* герой: h1, button - #FFFFFF */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+
+/* Logo */
+
+.logo {
+  color: #000000;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+/* Site navigation */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts-header .mail:hover,
+.contacts-header .mail:focus {
+  color: var(--accent-color);
+}
+
+.contacts-header .tel:hover,
+.contacts-header .tel:focus {
+  color: var(--accent-color);
+}
+
+/* Main */
+
+/* Hero */
+
+.hero .hero-title {
+  color: #ffffff;
+}
+
+.hero .button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* Sections */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+
+.features .title {
+  color: var(--title-text-color);
+}
+
+/* Team */
+
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Footer */
+
+/* Logo */
+
+.logo-footer {
+  color: #ffffff;
+}
+
+/* Address */
+
+.address {
+  color: #ffffff;
+}
+
+/* Contacts */
+
+.contacts-footer .mail,
+.contacts-footer .tel {
+  color: rgba(255, 255, 255, 60%);
+}
+
+.contacts-footer .mail:hover,
+.contacts-footer .mail:focus {
+  color: var(--accent-color);
+}
+
+.contacts-footer .tel:hover,
+.contacts-footer .tel:focus {
+  color: var(--accent-color);
+}
